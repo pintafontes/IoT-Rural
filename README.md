@@ -24,7 +24,7 @@ O proxecto é bastante complexo e reúne tecnoloxías moi diferentes, desde face
 
 ![Raspberry PI, sensores e Grafana](imaxes/raspberry-sensors-and-grafana.jpg)
 
-Agora estou adicando a maioría do tempo a organizar e completar toda a documentación necesaria para que o proxecto poida ser replicado por quen queira, esperando que desta forma outras persoas poidan contribuir coa súa experiencia e coñecementos a lograr a motivación principal.
+Agora estou adicando a maioría do tempo a organizar e completar toda a documentación necesaria para que o proxecto poida ser replicado por quen queira, esperando que desta forma outras persoas poidan contribuir coa súa experiencia e coñecementos a lograr a motivación inicial.
 
 ## Indice de repositorios
 
@@ -34,26 +34,31 @@ Dependendo dos teus intereses e coñecementos, podes usar estas guías como mái
 Nesta fase do proxecto conseguimos usar unha Raspberry Pi como unha _centralita de comunicacións_ para dispositivos de **I**nternet **o**f **T**hings (**IoT**). Tamén usaremos a **R**aspberry **Pi** (**RPi**) como dispositivo IoT ao que conectaremos algúns sensores. </br>
 A RPi funcionará coa distrubución Debian de GNU/Linux e executaremos tres servizos diferentes que compoñen o software de comunicación e procesado dos datos: [Mosquitto](https://mosquitto.org/); [InfluxDB](https://www.influxdata.com/products/influxdb/) e [Grafana](https://grafana.com/)
 
-2 - [Estación meteorolóxica](https://github.com/pintafontes/Estacion-Meteoroloxica) (documentación incomlpleta):</br>
-Tras a posta en marcha do servidor construiremos unha pequena estación meteorolóxica baseada en ESP8266. Medirá a temperatura e humidade exterior e a pluviometría e comunicará esta información ao noso servidor por Wifi na rede local</br>
-De momento o ESP8266 recibe a alimentación desde a rede eléctrica doméstica.
+2 - [Estación meteorolóxica](https://github.com/pintafontes/Estacion-Meteoroloxica) (documentación incompleta):</br>
+Tras a posta en marcha do servidor construiremos unha pequena estación meteorolóxica baseada en ESP8266. Medirá a temperatura, humidade exterior e pluviometría e comunicará esta información ao noso servidor por Wifi.</br>
+De momento a estación precisa de alimentación desde a rede eléctrica doméstica.
 
 3.-[Unidade Móbil OLED](https://github.com/pintafontes/Unidade-Mobil-OLED) (sen documentación):</br>
-Este dispositivo consiste nun ESP8266 cun un sensor DHT22 (temperatura e humidade) e unha minúscula pantalla OLED onde se presentan as mediads do propio dispositivo e outra información da rede MQTT.</br>
+Este dispositivo consiste nun ESP8266 cun un sensor DHT22 (temperatura e humidade) e unha minúscula pantalla OLED onde se presentan as medidas do propio dispositivo e outra información da rede MQTT.</br>
 Tamén recibe a alimentación desde a rede eléctrica doméstica, e non parece viable cambiar isto polo consumo da pantalla. O dispositivo da algúns problemas de conxestion da rede Wifi que non fun quen de resolver.
 
 ## Logros e traballo pendente por facer (TO-DO)
-- [x] Montar un servidor local na RPi con MQTT, InfluxDB e Grafana.
-Habilitar o acceso á RPi por SSH mediante claves asimétricas.
+- [x] Montar un servidor **local** na RPi con MQTT, InfluxDB e Grafana.
   - [ ] Automatizar unha copia de seguridade da base de datos noutro dispositivo diferente.
   - [ ] Crear arquivo de configuración para centralizar as variables usadas nos scripts, como enderezos IP, topics, acceso Wifi, etc.
   - [ ] Substituir o script `influxdb_mqtt.service` por algo con licencia libre.
+  - [ ] Habilitar o acceso á RPi por SSH mediante claves asimétricas.
   - [ ] Publicar os datos dos sensores en formato JSON.
-- [ ] Montar un servidor público na RPi con MQTT, InfluxDB e Grafana.
+- [ ] Montar un servidor **público** na RPi con MQTT, InfluxDB e Grafana.
 - [x] Construir unha estación meteorolóxica con ESP8266 e comunicación Wifi.
-    - [ ] Substiruir a comunicación Wifi por LORA.
+    - [ ] Calibrar os sensores, especialmente o pluviómetro e barómetro.
+    - [ ] Usar alimentación eléctrica autónoma (pilas, baterías ou placas solares).
+    - [ ] Substituir a comunicación Wifi por LORA.
+    - [ ] Construir un anemómetro de ultrasóns.
+- [x] Construir unha unidade móbil con ESP8266 e pantalla OLED.
+    - [ ] Deseñar un soporte de PLA máis bonito.
+    - [ ] Deseñar un soporte de arame de cobre e cables ao aire (ao estilo de [Mohit Bhoite](https://www.bhoite.com/sculptures/oled-terminal/)).
 - [x] Ordenar os arquivos e scripts de forma coherente e sinxela.
-    - [ ]
-- [ ] Deseño e construcción dunha protoboard para conectar os diferentes sensores aos terminais I2C do GPIO
-
-- [ ] Incluir a comunicación por LORA Monocanle
+- [ ] Deseño e construcción das placas para conectar os diferentes sensores cos microcontroladores e RPi.
+- [ ] Substituir a comunicación entre dispositivos por LORA monocanle.
+- [ ] Construir unidades móbiles de baixo consumo.
