@@ -6,7 +6,7 @@ Este espazo serve para construir e promover recursos de IoT en entornos rurais.
 
 A motivación inicial deste proxecto foi construir pequenas estacións de medida e actuación para a horta:
 
-+ que envíen información de sensores e reciban ordes de actuación,
++  que envíen información de sensores e reciban ordes de actuación,
 + que sexan baratas e relativamente sinxelas de construir,
 + que poidan funcionar sen cables para a alimentación ou transmisión de datos,
 + que sexan resistentes para ser usadas no exterior durante anos,
