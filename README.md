@@ -1,5 +1,7 @@
 # IoT no Rural
 
+NOTE: In the near future there will be an english version of this documentation
+
 Este espazo serve para construir e promover recursos de IoT en entornos rurais.
 
 ## Motivación e _disclaimer_
