@@ -41,7 +41,7 @@ Tras a posta en marcha do servidor construiremos unha pequena estación meteorol
 De momento a estación precisa de alimentación desde a rede eléctrica doméstica.
 
 3. [Unidade Móbil OLED](https://github.com/pintafontes/Unidade-Mobil-OLED) (sen documentación):</br>
-Este dispositivo consiste nun ESP8266 cun un sensor DHT22 (temperatura e humidade) e unha minúscula pantalla OLED onde se presentan as medidas do propio dispositivo e outra información da rede MQTT.</br>
+Este dispositivo consiste nun ESP8266 cun sensor DHT22 (temperatura e humidade) e unha minúscula pantalla OLED onde se presentan as medidas do propio dispositivo e outra información da rede MQTT.</br>
 Tamén recibe a alimentación desde a rede eléctrica doméstica, e non parece viable cambiar isto polo consumo da pantalla. O dispositivo da algúns problemas de conxestion da rede Wifi que non fun quen de resolver.
 
 ## Logros e traballo pendente por facer (TO-DO)
@@ -59,6 +59,8 @@ Tamén recibe a alimentación desde a rede eléctrica doméstica, e non parece v
     - [ ] Construir un anemómetro de ultrasóns.
 - [x] Construir unha unidade móbil con ESP8266 e pantalla OLED.
     - [ ] Deseñar un soporte de PLA máis bonito.
+    - [ ] Cambiar a pantalla por unha de tinta electrónica (moi baixo consumo).
+    - [ ] Substituir a comunicación Wifi por LORA.
     - [ ] Deseñar un soporte de arame de cobre e cables ao aire (ao estilo de [Mohit Bhoite](https://www.bhoite.com/sculptures/oled-terminal/)).
 - [x] Ordenar os arquivos e scripts de forma coherente e sinxela.
     - [x] Incorporar Platform.io para o traballo con dispositivos.
