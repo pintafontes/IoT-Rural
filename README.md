@@ -65,7 +65,7 @@ Tamén recibe a alimentación desde a rede eléctrica doméstica, e non parece v
 - [x] Ordenar os arquivos e scripts de forma coherente e sinxela.
     - [x] Incorporar [VSCode](https://code.visualstudio.com/) e [PlatformIO](https://platformio.org/) para programar os dispositivos.
     - [x] Facer uso sinxelo de Git e GitHub para a xestion do código.
-    - [x] Incorporar Atom para o traballo con texto e markdown.
+    - [x] Incorporar [Atom](https://atom.io/) para o traballo con texto e markdown.
 - [ ] Deseño e construcción das placas para conectar os diferentes sensores cos microcontroladores e RPi.
 - [ ] Substituir a comunicación entre dispositivos por LORA monocanle.
 - [ ] Construir unidades móbiles de baixo consumo.
