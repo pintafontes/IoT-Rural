@@ -28,7 +28,7 @@ O proxecto é bastante complexo e reúne tecnoloxías moi diferentes, desde face
 
 Agora estou adicando a maioría do tempo a organizar e completar toda a documentación necesaria para que o proxecto poida ser replicado por quen queira, esperando que desta forma outras persoas poidan contribuir coa súa experiencia e coñecementos a lograr a motivación inicial.
 
-## Indice de repositorios
+## Índice de repositorios
 
 Dependendo dos teus intereses e coñecementos, podes usar estas guías como máis che conveña. Pero eu recoméndoche que tentes replicar o proxecto na orde suxerida:
 
@@ -40,7 +40,7 @@ A RPi funcionará coa distrubución Debian de GNU/Linux e executaremos tres serv
 Tras a posta en marcha do servidor construiremos unha pequena estación meteorolóxica baseada en ESP8266. Medirá a temperatura, humidade exterior e pluviometría e comunicará esta información ao noso servidor por Wifi.</br>
 De momento a estación precisa de alimentación desde a rede eléctrica doméstica.
 
-3. -[Unidade Móbil OLED](https://github.com/pintafontes/Unidade-Mobil-OLED) (sen documentación):</br>
+3. [Unidade Móbil OLED](https://github.com/pintafontes/Unidade-Mobil-OLED) (sen documentación):</br>
 Este dispositivo consiste nun ESP8266 cun un sensor DHT22 (temperatura e humidade) e unha minúscula pantalla OLED onde se presentan as medidas do propio dispositivo e outra información da rede MQTT.</br>
 Tamén recibe a alimentación desde a rede eléctrica doméstica, e non parece viable cambiar isto polo consumo da pantalla. O dispositivo da algúns problemas de conxestion da rede Wifi que non fun quen de resolver.
 
