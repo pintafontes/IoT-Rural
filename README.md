@@ -32,15 +32,15 @@ Agora estou adicando a maioría do tempo a organizar e completar toda a document
 
 Dependendo dos teus intereses e coñecementos, podes usar estas guías como máis che conveña. Pero eu recoméndoche que tentes replicar o proxecto na orde suxerida:
 
-1 - [Servidor IoT sobre Raspberry Pi](https://github.com/pintafontes/Servidor-Raspberry):<br/>
+1. [Servidor IoT sobre Raspberry Pi](https://github.com/pintafontes/Servidor-Raspberry):<br/>
 Nesta fase do proxecto conseguimos usar unha Raspberry Pi como unha _centralita de comunicacións_ para dispositivos de **I**nternet **o**f **T**hings (**IoT**). Tamén usaremos a **R**aspberry **Pi** (**RPi**) como dispositivo IoT ao que conectaremos algúns sensores. </br>
 A RPi funcionará coa distrubución Debian de GNU/Linux e executaremos tres servizos diferentes que compoñen o software de comunicación e procesado dos datos: [Mosquitto](https://mosquitto.org/); [InfluxDB](https://www.influxdata.com/products/influxdb/) e [Grafana](https://grafana.com/)
 
-2 - [Estación meteorolóxica](https://github.com/pintafontes/Estacion-Meteoroloxica) (documentación incompleta):</br>
+2. [Estación meteorolóxica](https://github.com/pintafontes/Estacion-Meteoroloxica) (documentación incompleta):</br>
 Tras a posta en marcha do servidor construiremos unha pequena estación meteorolóxica baseada en ESP8266. Medirá a temperatura, humidade exterior e pluviometría e comunicará esta información ao noso servidor por Wifi.</br>
 De momento a estación precisa de alimentación desde a rede eléctrica doméstica.
 
-3.-[Unidade Móbil OLED](https://github.com/pintafontes/Unidade-Mobil-OLED) (sen documentación):</br>
+3. -[Unidade Móbil OLED](https://github.com/pintafontes/Unidade-Mobil-OLED) (sen documentación):</br>
 Este dispositivo consiste nun ESP8266 cun un sensor DHT22 (temperatura e humidade) e unha minúscula pantalla OLED onde se presentan as medidas do propio dispositivo e outra información da rede MQTT.</br>
 Tamén recibe a alimentación desde a rede eléctrica doméstica, e non parece viable cambiar isto polo consumo da pantalla. O dispositivo da algúns problemas de conxestion da rede Wifi que non fun quen de resolver.
 
