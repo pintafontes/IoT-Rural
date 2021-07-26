@@ -24,7 +24,7 @@ Levar adiante este proxecto serve para aprender, descubrir e inventar un montón
 
 O proxecto é bastante complexo e reúne tecnoloxías moi diferentes, desde facer o [código en `C++` para ler a temperatura cun sensor HDC1080](https://github.com/pintafontes/Servidor-Raspberry/blob/master/sensors/HDC1080_mqtt.py) ata deseñar e imprimir unha peza de PETG para [poñer o pluviómetro nun poste](https://github.com/pintafontes/Estacion-Meteoroloxica).
 
-![Raspberry PI, sensores e Grafana](imaxes/raspberry-sensors-and-grafana.jpg)
+<p align="center"><img alt="Raspberry PI, sensores e Grafana" align="center" src="imaxes/raspberry-sensors-and-grafana.jpg" width=70%></img></p>
 
 Agora estou adicando a maioría do tempo a organizar e completar toda a documentación necesaria para que o proxecto poida ser replicado por quen queira, esperando que desta forma outras persoas poidan contribuir coa súa experiencia e coñecementos a lograr a motivación inicial.
 
